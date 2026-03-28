@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* ===== BACKGROUND ===== */
+.auth-bg {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("../assets/bg-campus.jpeg") center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== CARD ===== */
+.auth-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 26px;
+  width: 340px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== TITLE ===== */
+.auth-card h2 {
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.auth-card .subtitle {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 18px;
+}
+
+/* ===== INPUTS ===== */
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* ===== BUTTON ===== */
+.auth-card button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 11px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-card button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.4);
+}
+
+/* ===== LINKS ===== */
+.link {
+  display: inline-block;
+  margin-top: 14px;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* ===== DASHBOARDS ===== */
+.dashboard {
+  min-height: 100vh;
+  background: #f9fafb;
+  padding: 30px;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.event-card {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
